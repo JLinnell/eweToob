@@ -20,7 +20,7 @@ function renderResult(result) {
         <h2>
             <article class="results">
     <a class="js-result-name" href="${video_url}" target="_blank"><span="description">${result.snippet.title}</span></a>
-    <a href="${video_url}" target="_blank"><img class="thumbnail" src="
+    <a href="${video_url}" target="_blank"><img id="thumbnail" src="
     ${result.snippet.thumbnails.medium.url}" alt="${result.snippet.title}"></a><span class="description">
     ${result.snippet.description}</span></article>
     </h2>
