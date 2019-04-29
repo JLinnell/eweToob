@@ -3,12 +3,6 @@ body {
     background-color: #eee
 }
 
-/*.container {
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-gap: 3px;
-}*/
-
 header {
     background-color: lightgreen;
     height: 6em;
@@ -36,29 +30,25 @@ h2 {
     text-align: center
 }
 
-/* .js-result-name,
-.results {
-    font-size: 15px;
-    width: 50%; 
-    display: block;
-} */
-
 .js-search-results {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 3px;
+    margin-left: 5px;
 }
 
+.title, 
 .description {
-    display: block;
-    text-align: justify;
-   
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 5px;
+    padding-right: 2rem;
 }
+
 .results {
     font-size: 15px;
-    /* width: 50%; */
-    display: block;
-    
 }
 
 img {
@@ -66,11 +56,11 @@ img {
     height: 100px;
     width: 200px;
     float: left;
-    /*padding: 8px 12px*/
 }
 
 #thumbnail {
     float: left;
+  
 }
 
 /*ipad and up*/
