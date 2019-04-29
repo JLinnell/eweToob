@@ -13,11 +13,12 @@ header {
 h1 {
     font-size: 2.5em;
     float: left;
-    padding-left: 25px
+    padding-left: 50px
 }
 
 form {
     text-align: center;
+    float: center;
 }
 
 .js-query {
@@ -27,7 +28,8 @@ form {
 
 h2 {
     font-size: 35px;
-    text-align: center
+    text-align: center;
+    padding-right: 50px;
 }
 
 .js-search-results {
