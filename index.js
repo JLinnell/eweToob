@@ -2,11 +2,11 @@ const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
 
 
 function getDataFromApi(searchTerm, callback) {
-    const API_KEY = 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA';
+    // const API_KEY = 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA';
     const query = {
         part: 'snippet',
         type: 'video',
-        key: API_KEY,
+        key: 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA',
         q: `${searchTerm} in:name`,
         maxResults: 5
     };
