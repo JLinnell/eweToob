@@ -1,7 +1,7 @@
 const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
 // const youtubeUrl = 'https://www.youtube.com/watch?v=';
 function getDataFromApi(searchTerm, callback) {
-    const apiKey = 'AIzaSyAai4qV-WV4BdSd-Of4zumWIlQhkmQ59WY';
+    const apiKey = 'AIzaSyDLPEE_h1mE3Mb0XcTKpkoyw0yCRIOEPGg';
     const query = {
         part: 'snippet',
         type: 'video',
