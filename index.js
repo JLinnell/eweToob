@@ -1,12 +1,12 @@
 const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
-
-
+// const youtubeUrl = 'https://www.youtube.com/watch?v=';
+const apiKey = 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA';
 function getDataFromApi(searchTerm, callback) {
     // const API_KEY = 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA';
     const query = {
         part: 'snippet',
         type: 'video',
-        key: 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA',
+        key: apiKey,
         q: `${searchTerm} in:name`,
         maxResults: 5
     };
@@ -15,7 +15,7 @@ function getDataFromApi(searchTerm, callback) {
 }
 
 function renderResult(result) {
-    //console.log(result);
+    console.log(result);
     const video_url = `https://www.youtube.com/watch?v=${result.id.videoId}/`;
     return `<div>
         <h2>
