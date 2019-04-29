@@ -4,7 +4,7 @@ function getDataFromApi(searchTerm, callback) {
     const query = {
         part: 'snippet',
         type: 'video',
-        key: 'AIzaSyCzUbhqTC_Lsoa6Gd8no837K2_FASOP_UA',
+        key: API_KEY,
         q: `${searchTerm} in:name`,
         maxResults: 5
     };
